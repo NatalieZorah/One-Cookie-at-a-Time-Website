@@ -1,4 +1,10 @@
 import React from "react";
+
+// * imports for page routing and the relative component
+import { BrowserRouter } from "react-router-dom";
+import BrowserRoutes from "./BrowserRoutes.jsx";
+
+// * main stylesheet for the app, for the moment only contains a css reset
 import "./App.css";
 
 // * abstract stylesheet imports
@@ -9,20 +15,17 @@ import "./styles/abstracts/fonts.css";
 import "./styles/abstracts/layout.css";
 
 // * static element imports
-// @ts-ignore
 import Footer from "./components/static elements/Footer.jsx";
-// @ts-ignore
 import Header from "./components/static elements/Header.jsx";
-// @ts-ignore
-import Nav from "./components/static elements/Navigation.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Nav />
-
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <BrowserRoutes />
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

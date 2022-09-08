@@ -1,0 +1,13 @@
+/* (( ================================================== )) */
+/* ((    custom properties defining the color scheme     )) */
+/* (( ================================================== )) */
+
+/* * primary color palette */
+:root {
+  --clr-white: #d4d4e0;
+  --clr-black: #271b14;
+  --clr-accent-1: #c39f97;
+  --clr-accent-2: #a96e6c;
+}
+
+/* * secondary color palettes */

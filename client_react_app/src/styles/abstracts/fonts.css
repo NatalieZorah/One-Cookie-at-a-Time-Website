@@ -1,0 +1,49 @@
+/* (( ================================================== )) */
+/* ((   font imports & utility styles for text elements  )) */
+/* (( ================================================== )) */
+
+/* (( custom properties for text elements )) */
+/* * font weights */
+:root {
+  /* * general */
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+  --font-weight-900: 850;
+
+  /* * accents */
+  --font-weight-bold-italic: 600;
+  --font-weight-bold-cursive: 600;
+}
+
+/* * font sizes */
+:root {
+  --font-size-subtext: 12px;
+  --font-size-normal: 16px;
+  --font-size-subtitle: 20px;
+  --font-size-title: 30px;
+  --font-size-max: 40px;
+}
+
+/* * font imports  */
+@font-face {
+  font-family: "Indie Flower", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+}
+
+/* (( general text styling )) */
+/* * header types */
+.headline-type-title {
+  font-family: "Indie Flower", cursive;
+  font-weight: var(--font-weight-bold-cursive);
+  font-size: var(--font-size-title);
+}
+
+.headline-type-subtitle {
+  font-family: "Indie Flower", cursive;
+  font-weight: var(--font-weight-bold-cursive);
+  font-size: var(--font-size-subtitle);
+}
+
+/* * link types */
+
+/* * general font styling */
