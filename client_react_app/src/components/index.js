@@ -3,17 +3,17 @@
 // ((================================================================))
 
 // * cards
+export { default as BreadCard } from "./cards/BreadCard.jsx";
+export { default as CookieCard } from "./cards/CookieCard.jsx";
+export { default as MenuItemCard } from "./cards/MenuItemCard.jsx";
 
 // * modals
+export { default as OrderModal } from "./modals/OrderModal.jsx";
 
 // * pages
-// @ts-ignore
 export { default as Home } from "./pages/Home.jsx";
 
 // * static elements
-// @ts-ignore
 export { default as Header } from "./static elements/Header.jsx";
-// @ts-ignore
 export { default as Footer } from "./static elements/Footer.jsx";
-// @ts-ignore
 export { default as Nav } from "./static elements/Navigation.jsx";

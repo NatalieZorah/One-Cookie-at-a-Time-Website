@@ -1,0 +1,16 @@
+/* (( ================================================== )) */
+/* ((    utility classes used for decorative elements    )) */
+/* (( ================================================== )) */
+
+/* * shadow boxes */
+.shadow-box-bordered {
+  box-shadow: 3px 8px 3px 3px rgba(0, 0, 0, 0.7);
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+}
+
+.shadow-box-unbordered {
+  box-shadow: 3px 8px 8px 3px rgba(0, 0, 0, 0.8);
+  border: none;
+  border-radius: 6px;
+}

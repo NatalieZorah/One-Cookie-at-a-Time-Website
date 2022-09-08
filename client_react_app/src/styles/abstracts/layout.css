@@ -1,0 +1,276 @@
+/* (( ================================================== )) */
+/* (( layout utility classes used throughout the project )) */
+/* (( ================================================== )) */
+
+/* * custom properties specific to layouts */
+:root {
+  --base-gap-spacing: 0.5rem;
+}
+
+/* (( miscelaneous display classes )) */
+.display-type-inline {
+  display: inline;
+}
+
+.display-type-inline-block {
+  display: inline-block;
+}
+
+.display-type-block {
+  display: block;
+}
+
+/* (( flexbox classes )) */
+.display-type-flex {
+  display: flex;
+}
+
+/* * alignment classes */
+.align-vertical {
+  flex-direction: column;
+}
+
+.align-horizontal {
+  flex-direction: row;
+}
+
+.align-horizontal-reverse {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/* (( grid classes )) */
+.display-type-grid {
+  display: grid;
+}
+
+/* * templating classes */
+.grid-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-columns-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-columns-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.grid-columns-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.grid-columns-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.grid-columns-10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.grid-columns-11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.grid-columns-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* * column alignment classes */
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.grid-col-span-3 {
+  grid-column: span 3;
+}
+
+.grid-col-span-4 {
+  grid-column: span 4;
+}
+
+.grid-col-span-5 {
+  grid-column: span 5;
+}
+
+.grid-col-span-6 {
+  grid-column: span 6;
+}
+
+.grid-col-span-7 {
+  grid-column: span 7;
+}
+
+.grid-col-span-8 {
+  grid-column: span 8;
+}
+
+.grid-col-span-9 {
+  grid-column: span 9;
+}
+
+.grid-col-span-10 {
+  grid-column: span 10;
+}
+
+.grid-col-span-11 {
+  grid-column: span 11;
+}
+
+.grid-col-span-12 {
+  grid-column: span 12;
+}
+
+/* * column start classes */
+
+.grid-col-start-1 {
+  grid-column-start: 1;
+}
+
+.grid-col-start-2 {
+  grid-column-start: 2;
+}
+
+.grid-col-start-3 {
+  grid-column-start: 3;
+}
+
+.grid-col-start-4 {
+  grid-column-start: 4;
+}
+
+.grid-col-start-5 {
+  grid-column-start: 5;
+}
+
+.grid-col-start-6 {
+  grid-column-start: 6;
+}
+
+.grid-col-start-7 {
+  grid-column-start: 7;
+}
+
+.grid-col-start-8 {
+  grid-column-start: 8;
+}
+
+.grid-col-start-9 {
+  grid-column-start: 9;
+}
+
+.grid-col-start-10 {
+  grid-column-start: 10;
+}
+
+.grid-col-start-11 {
+  grid-column-start: 11;
+}
+
+/* * row allignment classes */
+.grid-row-span-2 {
+  grid-row: span 2;
+}
+
+.grid-row-span-3 {
+  grid-row: span 3;
+}
+
+.grid-row-span-4 {
+  grid-row: span 4;
+}
+
+.grid-row-span-5 {
+  grid-row: span 5;
+}
+
+.grid-row-span-6 {
+  grid-row: span 6;
+}
+
+/* * row start classes */
+.grid-row-start-1 {
+  grid-row-start: 1;
+}
+
+.grid-row-start-2 {
+  grid-row-start: 2;
+}
+
+.grid-row-start-3 {
+  grid-row-start: 3;
+}
+
+.grid-row-start-4 {
+  grid-row-start: 4;
+}
+
+.grid-row-start-5 {
+  grid-row-start: 5;
+}
+
+.grid-row-start-6 {
+  grid-row-start: 6;
+}
+
+/* (( spacing classes )) */
+.gap-spacing-1 {
+  gap: calc(1 * var(--base-gap-spacing));
+}
+
+.gap-spacing-2 {
+  gap: calc(2 * var(--base-gap-spacing));
+}
+
+.gap-spacing-3 {
+  gap: calc(3 * var(--base-gap-spacing));
+}
+
+.gap-spacing-4 {
+  gap: calc(4 * var(--base-gap-spacing));
+}
+
+.gap-spacing-5 {
+  gap: calc(5 * var(--base-gap-spacing));
+}
+
+.gap-spacing-6 {
+  gap: calc(6 * var(--base-gap-spacing));
+}
+
+.gap-spacing-7 {
+  gap: calc(7 * var(--base-gap-spacing));
+}
+
+.gap-spacing-8 {
+  gap: calc(8 * var(--base-gap-spacing));
+}
+
+.gap-spacing-9 {
+  gap: calc(9 * var(--base-gap-spacing));
+}
+
+.gap-spacing-10 {
+  gap: calc(10 * var(--base-gap-spacing));
+}
+
+.gap-spacing-11 {
+  gap: calc(11 * var(--base-gap-spacing));
+}
+
+.gap-spacing-12 {
+  gap: calc(12 * var(--base-gap-spacing));
+}
